@@ -40,8 +40,8 @@
 #include <PCSC/wintypes.h>
 #include <PCSC/winscard.h>
 #else
-#include <wintypes.h>
-#include <winscard.h>
+#include "wintypes.h"
+#include "winscard.h"
 #endif
 
 #include "erl_nif.h"
