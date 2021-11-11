@@ -36,13 +36,8 @@
 #include <sys/time.h>
 #include <assert.h>
 
-#if defined(__APPLE__)
 #include <PCSC/wintypes.h>
 #include <PCSC/winscard.h>
-#else
-#include "wintypes.h"
-#include "winscard.h"
-#endif
 
 #include "erl_nif.h"
 
